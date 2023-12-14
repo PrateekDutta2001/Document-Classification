@@ -1,0 +1,148 @@
+
+ 
+ ======= For Logistic Regression ============Accuracy Score : 0.9775280898876404 Confusion Matrix 
+
+  [[ 85   0   0   0   4]
+ [  0 107   1   0   0]
+ [  1   0  81   0   0]
+ [  1   0   1  76   0]
+ [  0   1   1   0  86]]
+ Classification Report 
+               precision    recall  f1-score   support
+
+           0       0.98      0.96      0.97        89
+           1       0.99      0.99      0.99       108
+           2       0.96      0.99      0.98        82
+           3       1.00      0.97      0.99        78
+           4       0.96      0.98      0.97        88
+
+    accuracy                           0.98       445
+   macro avg       0.98      0.98      0.98       445
+weighted avg       0.98      0.98      0.98       445
+Execution time of program is: 5743.514 ms
+ 
+ ======= For Support Vector Classifier ============Accuracy Score : 0.9820224719101124 Confusion Matrix 
+
+  [[ 85   0   0   0   3]
+ [  0 107   0   0   0]
+ [  1   0  83   0   0]
+ [  1   0   1  76   1]
+ [  0   1   0   0  86]]
+ Classification Report 
+               precision    recall  f1-score   support
+
+           0       0.98      0.97      0.97        88
+           1       0.99      1.00      1.00       107
+           2       0.99      0.99      0.99        84
+           3       1.00      0.96      0.98        79
+           4       0.96      0.99      0.97        87
+
+    accuracy                           0.98       445
+   macro avg       0.98      0.98      0.98       445
+weighted avg       0.98      0.98      0.98       445
+Execution time of program is: 8650.648000000001 ms
+ 
+ ======= For Decision Tree ============Accuracy Score : 0.8292134831460675 Confusion Matrix 
+
+  [[73  4  1  6  9]
+ [ 1 94  3  5  1]
+ [ 2  2 67  4  2]
+ [ 0  6  5 58  1]
+ [11  2  8  3 77]]
+ Classification Report 
+               precision    recall  f1-score   support
+
+           0       0.84      0.78      0.81        93
+           1       0.87      0.90      0.89       104
+           2       0.80      0.87      0.83        77
+           3       0.76      0.83      0.79        70
+           4       0.86      0.76      0.81       101
+
+    accuracy                           0.83       445
+   macro avg       0.83      0.83      0.83       445
+weighted avg       0.83      0.83      0.83       445
+Execution time of program is: 972.172 ms
+ 
+ ======= For Random Forest ============Accuracy Score : 0.9640449438202248 Confusion Matrix 
+
+  [[ 82   0   0   1   4]
+ [  1 107   0   0   0]
+ [  0   0  81   1   1]
+ [  2   0   1  74   0]
+ [  2   1   2   0  85]]
+ Classification Report 
+               precision    recall  f1-score   support
+
+           0       0.94      0.94      0.94        87
+           1       0.99      0.99      0.99       108
+           2       0.96      0.98      0.97        83
+           3       0.97      0.96      0.97        77
+           4       0.94      0.94      0.94        90
+
+    accuracy                           0.96       445
+   macro avg       0.96      0.96      0.96       445
+weighted avg       0.96      0.96      0.96       445
+Execution time of program is: 1916.3509999999999 ms
+ 
+ ======= For Neural Network ============Accuracy Score : 0.9820224719101124 Confusion Matrix 
+
+  [[ 86   0   1   0   3]
+ [  0 107   0   0   0]
+ [  0   0  83   0   2]
+ [  1   0   0  76   0]
+ [  0   1   0   0  85]]
+ Classification Report 
+               precision    recall  f1-score   support
+
+           0       0.99      0.96      0.97        90
+           1       0.99      1.00      1.00       107
+           2       0.99      0.98      0.98        85
+           3       1.00      0.99      0.99        77
+           4       0.94      0.99      0.97        86
+
+    accuracy                           0.98       445
+   macro avg       0.98      0.98      0.98       445
+weighted avg       0.98      0.98      0.98       445
+Execution time of program is: 51407.51 ms
+ 
+ ======= For Stochastic Gradient Descent ============Accuracy Score : 0.9752808988764045 Confusion Matrix 
+
+  [[ 85   0   0   1   4]
+ [  0 107   0   0   0]
+ [  1   0  82   0   0]
+ [  1   0   1  75   1]
+ [  0   1   1   0  85]]
+ Classification Report 
+               precision    recall  f1-score   support
+
+           0       0.98      0.94      0.96        90
+           1       0.99      1.00      1.00       107
+           2       0.98      0.99      0.98        83
+           3       0.99      0.96      0.97        78
+           4       0.94      0.98      0.96        87
+
+    accuracy                           0.98       445
+   macro avg       0.98      0.97      0.97       445
+weighted avg       0.98      0.98      0.98       445
+Execution time of program is: 425.504 ms
+ 
+ ======= For KNN ============Accuracy Score : 0.9258426966292135 Confusion Matrix 
+
+  [[ 79   0   0   6   7]
+ [  1 107   1   0   2]
+ [  3   0  81   2   1]
+ [  1   0   1  68   3]
+ [  3   1   1   0  77]]
+ Classification Report 
+               precision    recall  f1-score   support
+
+           0       0.91      0.86      0.88        92
+           1       0.99      0.96      0.98       111
+           2       0.96      0.93      0.95        87
+           3       0.89      0.93      0.91        73
+           4       0.86      0.94      0.90        82
+
+    accuracy                           0.93       445
+   macro avg       0.92      0.92      0.92       445
+weighted avg       0.93      0.93      0.93       445
+Execution time of program is: 370.865 ms
